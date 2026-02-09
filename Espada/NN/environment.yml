@@ -1,0 +1,13 @@
+name: us-denoise
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pytorch        # pulls a compatible torchvision too
+  - torchvision
+  - cudatoolkit=11.7    # match your NVIDIA driver/CUDA install
+  - numpy
+  - scikit-image
+  - opencv
+  - pip
