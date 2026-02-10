@@ -12,6 +12,7 @@ from bm3d import bm3d, BM3DProfile
 #    pip install scikit-image PyWavelets
 
 # Paths
+#ADD your paths
 input_dir  = r"F:\Desktop\Minor\Python\Dataset\Espada\FramesCrop"
 output_base = r"F:\Desktop\Minor\Python\Dataset\Espada\Denoised"
 
