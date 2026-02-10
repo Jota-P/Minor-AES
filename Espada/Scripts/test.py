@@ -94,4 +94,4 @@ if __name__ == "__main__":
         if should_quit:
             print("Quitting early.")
             break
-    print("Done.")
+    print("Done. And saved")

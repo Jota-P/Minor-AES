@@ -98,7 +98,7 @@ def process_frame(filepath):
     cv2.imwrite(os.path.join(OUTPUT_DIR, base + "_snake_mask.png"), snake_mask)
     cv2.imwrite(os.path.join(OUTPUT_DIR, base + "_final.png"), final)
 
-    # 10) (Optional) visualize
+    # 10) visualize
     if VISUALIZE:
         fig, axes = plt.subplots(1, 4, figsize=(16,4))
         axes[0].imshow(img,        cmap='gray'); axes[0].set_title('Original')
